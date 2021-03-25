@@ -21,11 +21,10 @@ function pushResult(number) {
 }
 
 function culc(e) {
-    let a = 0;
-    let b = 1;
-    return () => {
-        a = a + b;
-        b = a - b;
-    }
+  let a = 0;
+  let b = 1;
+  return () => {
+    a = a + b;
+    b = a - b;
+  };
 }
-
